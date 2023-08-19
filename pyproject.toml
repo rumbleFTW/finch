@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "finch"
+version = "0.1.0"
+description = "Finch enables users to train and deploy personalized translation models using transformers. Tailored for specific languages and domains, it breaks language barriers with precision and ease, revolutionizing how we communicate across cultures."
+authors = ["rumbleFTW <007rajdeepghosh@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+torch = "^2.0.1"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
